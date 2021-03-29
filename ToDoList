@@ -5,13 +5,13 @@ Build a fully fuctional Assembler that takes the Assembly writen code and transf
 
 To Do:
 
-1.Build the Parser Module - Incomplete
+1.Build the Parser Module - Complete - no comments added
 Description: Will break each assembly command into is components to be later process by the other modules.
 
 2.Build the Code Module - Incomplete
 Description: Will take the data from the parser module and translate it into machine code.
 
-3.Build the Symbol Table Module - Incomplete
+3.Build the Symbol Table Module - Complete - no comments added
 Description: Will take data from the parser module and transform symbols into acutal addresses which will be store into a python dictionary.
 
 4.Connect the 3 modules together - Incomplete
