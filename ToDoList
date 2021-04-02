@@ -1,20 +1,20 @@
-*Nand2Tetris - Chapter 4 Project*
+*Nand2Tetris - Chapter 6 Project*
 
 Main Goal:
 Build a fully fuctional Assembler that takes the Assembly writen code and transforms it into machine code for the Hack Computer
 
 To Do:
 
-1.Build the Parser Module - Complete - no comments added
+1.Build the Parser Module - Complete - Comments added
 Description: Will break each assembly command into is components to be later process by the other modules.
 
-2.Build the Code Module - Incomplete
+2.Build the Code Module - Replace by the Assembler Class
 Description: Will take the data from the parser module and translate it into machine code.
 
-3.Build the Symbol Table Module - Complete - no comments added
+3.Build the Symbol Table Module - Complete - Comments added
 Description: Will take data from the parser module and transform symbols into acutal addresses which will be store into a python dictionary.
 
-4.Connect the 3 modules together - Incomplete
+4.Connect the 3 modules together - Replace by the Assembler Class
 Description: The workflow of the Assembler Program will involve importing the assembly text from a ".asm" file. Afterward, the parser module will break the code into smaller chunks. This chunks will be than fed to the symbol table module which will build a dictionary for the user generated symbol. The dictionary will be initialize with a series of predefined symbols. Lastly, the code module translates each chunk fed from the parser module into machine code. In case of symbol, the code module will use the symbol table to translate it. The translated program will than be store in a ".hack" file.
 
 For more information: https://www.nand2tetris.org/
